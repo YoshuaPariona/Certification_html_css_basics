@@ -1,0 +1,108 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Radia Perlman Tribute</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Radia Perlman: La Madre de Internet</h1>
+        
+        <figure id="img-div">
+            <img id="image" src="https://i0.wp.com/kartaca.com/wp-content/uploads/2023/03/Hedef-9-8-Mart-4.png?w=1180&ssl=1" />
+            <figcaption id="img-caption">Radia Perlman, pionera en redes y creadora del Spanning Tree Protocol (STP).</figcaption>
+        </figure>
+
+        <section id="tribute-info">
+            <h2>Línea de tiempo de su vida y logros</h2>
+            <ul>
+                <li><span class="bold">1951:</span> Nace en Portsmouth, Virginia, Estados Unidos. Desde temprana edad mostró interés por resolver problemas complejos, lo que más tarde influiría en sus contribuciones a la informática.</li>
+                <li><span class="bold">1969:</span> Se interesa por la programación en el MIT, destacando como una de las pocas mujeres en el campo de la tecnología en ese tiempo. Aquí desarrolló TORTIS, un entorno de programación para niños que marcó el inicio de su impacto en el campo educativo.</li>
+                <li><span class="bold">1976:</span> Diseña el Spanning Tree Protocol (STP), que resolvió el problema de los bucles en redes Ethernet, haciendo que estas fueran más seguras y confiables. Este protocolo es la base de las redes modernas y permitió una expansión masiva de las infraestructuras de red.</li>
+                <li><span class="bold">1984:</span> Realiza contribuciones al protocolo IS-IS (Intermediate System to Intermediate System), utilizado en grandes redes para determinar la mejor ruta de datos. Esto fortaleció la capacidad de las redes para manejar tráfico a gran escala.</li>
+                <li><span class="bold">1988:</span> Publica su influyente libro "Interconnections", considerado una obra de referencia para ingenieros de redes. En él, explica conceptos complejos de manera accesible, consolidando su reputación como experta en el campo.</li>
+                <li><span class="bold">1992:</span> Contribuye al desarrollo de IPv6, expandiendo enormemente la cantidad de direcciones IP disponibles y preparando Internet para soportar miles de millones de dispositivos conectados en el futuro.</li>
+                <li><span class="bold">2000:</span> Reconocida como una de las figuras más influyentes en TI, sus innovaciones siguen siendo fundamentales para la evolución de las redes globales.</li>
+                <li><span class="bold">2010:</span> Continúa trabajando en la simplificación de redes y seguridad, con un enfoque en diseños que minimicen errores humanos y aumenten la eficiencia.</li>
+                <li><span class="bold">Hoy:</span> Su legado continúa inspirando a ingenieros en todo el mundo, siendo un ejemplo de innovación y perseverancia en la tecnología.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <a id="tribute-link" href="https://en.wikipedia.org/wiki/Radia_Perlman" target="_blank">Más información sobre Radia Perlman</a>
+        </footer>
+    </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.5;
+    background-color: #f4f4f9;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+#img-div {
+    text-align: center;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
+
+#tribute-info {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: justify;
+}
+
+#tribute-info li {
+    padding: 10px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#tribute-link {
+    color: #3498db;
+    font-weight: bold;
+}
+
+#tribute-link:hover {
+    color: #21618c;
+}
+
+
+** end of undefined **
+

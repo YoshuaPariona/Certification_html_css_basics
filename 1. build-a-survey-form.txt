@@ -1,0 +1,129 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ayuda académica</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">AYUDA ACADÉMICA</h1>
+    <p id="description">Formulario para el registro compañeros que busquen ayuda o deseen brindar ayuda acdémica en alguno de los cursos disponibles</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Nombre: </label>
+      <input id="name" type="text" placeholder="Ingrese su nombre" required>
+
+      <label id="email-label" for="email">Email: </label>
+      <input id="email" type="email" placeholder="Ingrese su correo electrónico" required>
+
+      <label id="number-label" for="number">Número de celular: </label>
+      <input id="number" type="number" min="7" max="9" placeholder="Ingrese su número de celular" required>
+
+      <label for="dropdown">Escoja el curso: </label>
+      <select id="dropdown" for="options" required>
+        <option value=""></option>
+        <option value="option1">Redes de computadoras</option>
+        <option value="option2">Física 2</option>
+        <option value="option3">Cálculo integral</option>
+      </select>
+
+      <fieldset>
+        <legend>¿Qué tanto consideras que sabes sobre el curso?</legend>
+        <label>
+          <input type="radio" name="nivel-acad" value="bajo">Bajo
+        </label>
+        <label>
+          <input type="radio" name="nivel-acad" value="medio">Medio
+        </label>
+        <label>
+          <input type="radio" name="nivel-acad" value="alto">Alto
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>¿Qué cualidades blandas consideras que posees?</legend>
+        <label>
+          <input type="checkbox" name="cualidad" value="enseñar">Facilidad para enseñar
+        </label>
+        <label>
+          <input type="checkbox" name="cualidad" value="paciencia">Paciencia
+        </label>
+        <label>
+          <input type="checkbox" name="cualidad" value="res-prob">Resolución de problemas
+        </label>
+        <input type="checkbox" name="cualidad" value="tiempo">Buena gestión del tiempo
+        </label>
+      </fieldset>
+
+      <label for="comments">Dinos que te motiva a formar parte de este grupo académico.</label>
+      <textarea id="comments"></textarea>
+      <button id="submit" type="submit">Enviar</button>
+
+    </form>
+  </body>
+  <footer></footer>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial;
+    padding: 20px
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+#survey-form {
+    max-width: 500px;
+    padding: 20px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+
+textarea {
+    min-height: 100px
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+fieldset {
+    margin: 2em 0;
+    background-color: #f9f9f9;
+}
+
+legend {
+    font-weight: bold;
+}
+
+
+** end of undefined **
+

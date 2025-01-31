@@ -1,0 +1,126 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de cubos mágicos</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="https://images.sftcdn.net/images/t_app-icon-m/p/ede153d7-bdc9-4bac-b3b9-a201c9c42db9/731351840/magic-cube-logo">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#Tipos_de_cubos">Tipos de cubos</a>
+      <a class="nav-link" href="#Guías">Guías</a>
+      <a class="nav-link" href="#Precios">Precios</a>
+    </nav>
+  </header>
+  <section id="Tipos_de_cubos">
+    <h2>Tipos de cubos</h2>
+    <p>Explora nuestra amplia selección de cubos mágicos. Desde los clásicos 3x3 hasta cubos de velocidad y coleccionables. ¡Encuentra el cubo perfecto para ti!</p>
+  </section>
+  <section id="Guías">
+    
+    <h2>Guías</h2>
+    <p>¿Nuevo en el mundo de los cubos mágicos? Te ayudamos a elegir el cubo ideal y aprender las mejores técnicas para empezar a resolverlos como un experto.</p>
+  </section>
+  <section id="Precios">
+    
+    <h2>Precios</h2>
+    <p>Descubre nuestros precios competitivos y encuentra el cubo mágico que buscas dentro de tu presupuesto. ¡Calidad y variedad al mejor precio!</p>
+  </section>
+  <iframe id="video" src="https://www.youtube.com/embed/Hi0tXRWJzYw" frameborder="0" allowfullscreen></iframe>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input type="email"
+    id="email"
+    name="email"
+    placeholder="Ingrese su correo para recibir ofertas especiales"
+    required
+    >
+    <input type="submit"
+    id="submit"
+    value="Enviar!"
+    >
+  </form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+#header-img{
+    height: 50px;
+}
+#nav-bar{
+    display: flex;
+        gap: 50px;
+}
+.nav-link{
+    color: #fff;
+    font-size: 4vw;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #00ff00;
+}
+body{
+    padding-top: 100px;
+}
+section{
+    padding: 1rem 1rem;
+}
+#video{
+    width: 100%;
+    height: 300px;
+}
+form{
+    flex-direction: column;
+    padding: 2rem;
+    background: #2d2d2d;
+}
+#email{
+    width: 80%;
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+#submit{
+    background: #00ff00;
+    color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#submit:hover{
+    transform: scale(1.1);
+}
+@media (max-width: 768px){
+    #header {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+}
+
+** end of undefined **
+
