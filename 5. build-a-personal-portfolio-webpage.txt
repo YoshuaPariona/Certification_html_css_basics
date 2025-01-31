@@ -1,0 +1,164 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#welcome-section" class="nav-link">Inicio</a>
+      <a href="#projects" class="nav-link">Proyectos</a>
+      <a href="#contacto" class="nav-link">Contáctame</a>
+    </nav>
+    <section id="welcome-section">
+      <h1>Bienvenido/a a mi portafolio</h1>
+      <h2>Mi nombre es Yoshua</h2>
+      <p>Gracias por explorar mi trabajo. Cada proyecto es una oportunidad para generar valor con honestidad.</p>
+    </section>
+    <section id="projects">
+      <div class="project-tile">
+        <img src="https://raw.githubusercontent.com/YoshuaPariona/Certification_html_css_basics/refs/heads/main/Certification_project_1.jpg"/>
+        <a href="https://github.com/YoshuaPariona/Certification_html_css_basics/blob/main/1.%20build-a-survey-form.txt" 
+        target="_blank">
+        Proyecto 1</a>
+</div>
+<div class="project-tile">
+      <img src="https://raw.githubusercontent.com/YoshuaPariona/Certification_html_css_basics/refs/heads/main/Certification_project_2.jpg"/>
+        <a href="https://github.com/YoshuaPariona/Certification_html_css_basics/blob/main/2.%20build-a-tribute-page.txt" 
+        target="_blank">
+        Proyecto 2</a>
+ </div>
+<div class="project-tile">
+      <img src="https://raw.githubusercontent.com/YoshuaPariona/Certification_html_css_basics/refs/heads/main/Certification_project_3.jpg"/>
+        <a href="https://github.com/YoshuaPariona/Certification_html_css_basics/blob/main/3.%20build-a-technical-documentation-page.txt" 
+        target="_blank">
+        Proyecto 3</a>
+</div>
+<div class="project-tile">
+      <img src="https://raw.githubusercontent.com/YoshuaPariona/Certification_html_css_basics/refs/heads/main/Certification_project_4.jpg"/>
+        <a href="https://github.com/YoshuaPariona/Certification_html_css_basics/blob/main/4.%20build-a-product-landing-page.txt" 
+        target="_blank">
+        Proyecto 4</a>
+      </div>
+    </section>
+    <section id="contacto">
+      <p>Visita mi <a id="profile-link" href="https://github.com/YoshuaPariona" target="_blank">Github</a>.</p>
+      <p>Consulta mi <a class="profile-link" href="https://www.freecodecamp.org/Yoshua_Pariona" target="_blank">perfil</a> de freecodecamp.</p>
+    </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+#navbar {
+  background-color: #2c3e50;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  z-index:1000;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #2ecc71;
+}
+#welcome-section {
+  text-align: center;
+  padding: 30px;
+  padding-top: 80px;
+}
+#welcome-section h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+#welcome-section h2 {
+  font-size: 2rem;
+  color: #666;
+}
+#welcome-section p {
+  font-size: 1rem;
+  color: #777;
+}
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #e9ecef;
+}
+.project-tile {
+  margin: 15px;
+  border: 1px;
+  border-radius: 10px;
+  width: 280px;
+  text-align: center;
+}
+.project-tile:hover {
+  transform: translateY(-10px);
+}
+.project-tile img {
+  width: 100%;
+}
+.project-tile a {
+  display: block;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.project-tile a:hover {
+  color: #2ecc71;
+}
+#contacto {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+}
+#contacto p {
+  font-size: 1.5rem;
+  color: #555;
+}
+#contacto a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+#contacto a:hover {
+  color: #2ecc71;
+}
+@media (max-width: 600px) {
+  #navbar {
+    padding: 20px;
+  }
+  #projects {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+** end of undefined **
+
